@@ -1,0 +1,26 @@
+/* Shimmer.css */
+.shimmer-container {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .shimmer-content {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .shimmer {
+    animation: shimmerAnimation 1.5s infinite linear;
+    background: linear-gradient(90deg, transparent, #f0f0f0, transparent);
+    background-size: 200% 100%;
+  }
+  
+  @keyframes shimmerAnimation {
+    0% {
+      background-position: -200% 0;
+    }
+    100% {
+      background-position: 200% 0;
+    }
+  }
+  
