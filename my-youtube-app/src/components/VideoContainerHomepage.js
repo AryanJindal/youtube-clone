@@ -17,46 +17,12 @@ const VideoContainerHomepage = () => {
   if(videos.length === 0){
     return (<div className="flex flex-wrap justify-center">
       <Shimmer/>
-      <Shimmer/>
-      <Shimmer/>
-      <Shimmer/>
-      <Shimmer/>
-      <Shimmer/>
-      <Shimmer/>
-      <Shimmer/>
-      <Shimmer/>
-      <Shimmer/>
-      <Shimmer/>
-      <Shimmer/>
-      <Shimmer/>
-      <Shimmer/>
-      <Shimmer/>
-      <Shimmer/>
-      <Shimmer/>
-      <Shimmer/>
-      <Shimmer/>
-      <Shimmer/>
-      <Shimmer/>
-      <Shimmer/>
-      <Shimmer/>
-      <Shimmer/>
-      <Shimmer/>
-      <Shimmer/>
-      <Shimmer/>
-      <Shimmer/>
-      <Shimmer/>
-      <Shimmer/>
-      <Shimmer/>
-      <Shimmer/>
-      <Shimmer/>
-      <Shimmer/>
-      <Shimmer/>
     </div>)
   }
   return (
     <div className="flex flex-wrap justify-center items-center aspect-auto">
       {videos.map((video) => (
-        <Link to={"/watch?v=" + video.id}> <VideoCard key={video.id} info={video} />
+        <Link key={video.id} to={"/watch?v=" + video.id}> <VideoCard key={video.id} info={video} />
         </Link>
       ))}
     </div>
