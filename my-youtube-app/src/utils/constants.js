@@ -3,3 +3,4 @@ export const userImage = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADh
 export const Youtube_API = `https://youtube.googleapis.com/youtube/v3/videos?part=snippet%2CcontentDetails%2Cstatistics&chart=mostPopular&maxResults=50&regionCode=IN&key=${process.env.REACT_APP_YOUTUBE_API}`;
 export const googleSuggestionAPI = `https://clients1.google.com/complete/search?hl=en&output=toolbar&q=`
 export const youtube_Search_api = "http://suggestqueries.google.com/complete/search?client=firefox&ds=yt&q="
+export const Offset_Live_chat = 40
