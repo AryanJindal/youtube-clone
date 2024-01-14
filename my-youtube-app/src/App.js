@@ -30,6 +30,10 @@ function App() {
       {/* {console.log(store)} */}
       <div className="App">
         <Head />
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
         <RouterProvider router={appRouter} />
       </div>
     </Provider>

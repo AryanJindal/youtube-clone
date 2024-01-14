@@ -4,7 +4,7 @@ import { useSelector } from "react-redux";
 const Sidebar = () => {
   const isMenuOpen = useSelector(store=> store.app.isMenuOpen)
   return (
-    isMenuOpen && <div className="mx-4 border-r-2">
+    isMenuOpen && <div className="mx-4 border-r-2  bg-white">
     <h1 class="headings border-t-2 text-2xl font-bold  pt-3 pr-2">You</h1>
 
     <ul class="list-style-none py-4">
