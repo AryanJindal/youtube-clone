@@ -25,3 +25,13 @@ Debouncing with 200ms ==> means if diff b/w two key strokes if 200ms or less, th
     - Why my page freeze ==> when the size becomes too high. 
     - can i prevent it ?
     - So, what i will do is only keep last 200-300[depending on the browser's storage capacity/Harware which it can store] messages and delete rest
+
+
+## useMemo
+
+- Caches the value returned by the fn
+const nthPrime  =  useMemo(fnToBeCalled, dependency_Of_the_fn)
+
+## useCallBack
+
+- Caches a fn defination
